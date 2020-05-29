@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
@@ -59,7 +61,7 @@ public class createCubes {
 	static protected void lrt() {
 		for(int i = 0; i<26; i++) {
 			
-			//Redefines the pivot point to the center of the rubik's cube, 
+			//Redefines the pivot point to the center of the src.rubik's cube,
 			//rather than the center of the cube itself
 			cubelrt.add(new Rotate(0, -1*sXm[i], -1*sYm[i], -1*sZm[i],Rotate.Y_AXIS));
 			cubes.get(i).getTransforms().add(cubelrt.get(i));
@@ -70,7 +72,7 @@ public class createCubes {
 	static protected void urt() {
 		
 		for(int i = 0; i<26; i++) {
-			//Redefines the pivot point to the center of the rubik's cube, 
+			//Redefines the pivot point to the center of the src.rubik's cube,
 			//rather than the center of the cube itself
 			cubeurt.add(new Rotate(0, -1*sXm[i], -1*sYm[i], -1*sZm[i],Rotate.X_AXIS));
 			cubes.get(i).getTransforms().add(cubeurt.get(i));

@@ -1,3 +1,5 @@
+package src;
+
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.PerspectiveCamera;
@@ -19,7 +21,6 @@ import javafx.animation.Timeline;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import java.util.Scanner;
-import oc.MyGenericDS;
 //interface and class respectively used as one of the data structures
 
 public class rubik extends Application{
@@ -32,7 +33,7 @@ public class rubik extends Application{
 	//Sets the time (seconds) for one cube rotation
 	private double spinTime = 0.5;
 
-	//Introduces the class NaughtsAndCrossesInnerCube within the class rubik, because two parent classes are required (and Java does not allow extension of multiple classes)
+	//Introduces the class NaughtsAndCrossesInnerCube within the class src.rubik, because two parent classes are required (and Java does not allow extension of multiple classes)
 	public static class NaughtsAndCrossesInnerCube extends Faces{	
 		
 		//Initializes FaceNumber and BoardLocation, which determines the location of a move
