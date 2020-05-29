@@ -6,6 +6,7 @@ See our project design document and specification for more details.
 
 ## Installation
 to compile: javac -d . * . java
+
 to run: java src.rubik
 
 ## Usage
@@ -17,4 +18,5 @@ You will win the game once there are 3 of your counters in a row (or lose if 3 o
 
 ## Credits
 Lesley Zheng
+
 Kieren Brookens
