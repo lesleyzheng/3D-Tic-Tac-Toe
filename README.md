@@ -12,13 +12,13 @@ to run: java src.rubik
 ## Usage
 You will place your piece in the cube by clicking on the corresponding cube you wish to play your piece on. The figure below shows how our game would look like in the middle of a game. The direction buttons to the left of the cube allows the player to be able to view and choose to place his/her counter on any part of the cube.
 
-[[figure1.png]]
+![[Figure 1]](figure1.png)
 
 The cube will behave in such a way that if you place your move on the top right corner of one face, the same move will also be played on the top left of the face to the right of your chosen face and the bottom right of the face on top of the chosen face.
 
 You will win the game once there are 3 of your counters in a row (or lose if 3 of the opponent’s counters are in a row) and be met with a pop up stating who won the game. The figure below shows the situation in which Player O wins by having three consecutive O’s in a horizontal row.
 
-[[figure2.png]]
+![[Figure 2]](figure2.png)
 
 ## Credits
 Created by Lesley Zheng and Kieren Brookens, December, 2017.
