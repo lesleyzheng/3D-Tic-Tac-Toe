@@ -1,6 +1,6 @@
 ## What is 3D-Tic-Tac-Toe?
 
-What started off as a final project for our introduction to computer science (in Java) class spun into one fully functional 3 dimensional game! 3D Tic Tac Toe, as its name suggests, is the three dimensional version of the traditionally played 2D game. Instead of playing on a 3 by 3 playing field, this version of the game covers six faces of a cube. The placement of a counter can affect up to three faces (i.e. if you place it in the corner). This version of the gaem requires more mathematical thinking and more fun.
+What started off as a final project for our introduction to computer science (in Java) class spun into one fully functional 3 dimensional game! 3D Tic Tac Toe, as its name suggests, is the three dimensional version of the traditionally played 2D game. Instead of playing on a 3 by 3 playing field, this version of the game covers six faces of a cube. The placement of a counter can affect up to three faces (i.e. if you place it in the corner). This version of the game requires more mathematical thinking and more fun.
 
 See our project design document and specification in /docs for more details.
 
