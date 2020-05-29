@@ -6,8 +6,7 @@ See our project design document and specification for more details.
 
 ## Installation
 to compile: javac -d . * . java
-
-to run: java src.rubik
+\newline to run: java src.rubik
 
 ## Usage
 You will place your piece in the cube by clicking on the corresponding cube you wish to play your piece on. The figure below shows how our game would look like in the middle of a game. The direction buttons to the left of the cube allows the player to be able to view and choose to place his/her counter on any part of the cube.
@@ -17,6 +16,4 @@ The cube will behave in such a way that if you place your move on the top right 
 You will win the game once there are 3 of your counters in a row (or lose if 3 of the opponent’s counters are in a row) and be met with a pop up stating who won the game. The figure below shows the situation in which Player O wins by having three consecutive O’s in a horizontal row.
 
 ## Credits
-Lesley Zheng
-
-Kieren Brookens
+Created by Lesley Zheng and Kieren Brookens, December, 2017.
